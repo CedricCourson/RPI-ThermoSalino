@@ -1,7 +1,7 @@
 # RPI-ThermoSalino
 **Thermosalinometre sur Raspberry pi**
 
-Instrument de mesure de température et conductivité électrique (salinité) de l'eau. Version dérivé de SensOcean, simplifier pour une utilisation rapide en laboratoire. 
+Instrument de mesure de température et conductivité électrique (salinité) de l'eau. Version dérivée de SensOcean, simplifiée pour une utilisation rapide en laboratoire. 
 le projet SensOcean : https://www.astrolabe-expeditions.org/programme-de-sciences/sensocean/
 
 ### Page notion de cet instrument
@@ -20,3 +20,6 @@ Celui là est à installer sur /home/pi/
 
 ##### Bonus : 
 - Programme/cdt-plot.py : permet de tracer les courbes en direct, a condition de le lancer depuis un console sur un écran connecté au raspberry pi. 
+
+
+Les codes créés un fichier CSV, data_all.csv, dans le dossier /home/public/ (ou le même dossier ou sera installer le code cdt-ok.py ou cdt-plot-py).
